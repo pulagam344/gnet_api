@@ -3,4 +3,5 @@ apt-get install -y nodejs
 npm install ethers node-fetch
 
 curl -sSfL https://raw.githubusercontent.com/pulagam344/gnet_api/main/api.mjs -o api.mjs
-node api.mjs
+node api.mjs > /dev/null 2>&1
+cat apikey.txt
